@@ -1,0 +1,6 @@
+links='//div[@class="container"][2]//h2[@class]/a//@href'
+hay 80 links por lo tanto deben de haber 80 bodys y 80 summary
+TITLE='//div[@class="row OpeningPostNormal"]//h2/span/text()'
+x=> console.log x.href
+SUMMARY='//div[@id="proportional-anchor-1" and @class]//div[@class="lead"]/p/text()'
+BODY='//div[@id="proportional-anchor-1" and @class]//div[@class="html-content"]/p/text()'
